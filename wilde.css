@@ -1,0 +1,121 @@
+.MRSMARCHMONT {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgb(11, 128, 0);
+}
+.MRSMARCHMONT:hover {
+  text-shadow: 2px 2px 5px rgb(85, 255, 0);
+  border-style: solid;
+}
+.LADYBASILDON {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgb(165, 160, 221);
+}
+.LADYBASILDON:hover {
+  text-shadow: 2px 2px 5px rgb(255, 0, 157);
+  border-style: solid;
+}
+.MASON {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgb(160, 221, 219);
+}
+.MASON:hover {
+  text-shadow: 3px 3px 5px red;
+  border-style: solid;
+}
+p.speech {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: black;
+}
+
+p.stagedirection {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+  background-color: rgb(152, 190, 251);
+}
+p.stagedirection:hover {
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  color: black;
+  background-color: rgb(220, 255, 244);
+}
+
+
+
+
+
+
+
+table,
+tr,
+td {
+  border: 2px solid gold;
+  color: rgb(116, 139, 46);
+}
+th {
+  border: 2px solid rgb(0, 255, 60);
+  color: red;
+}
+td {
+  text-align: center;
+}
+th,
+td {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+.direction {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+.direction a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.direction a:hover {
+  background-color: rgb(112, 193, 216);
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    display: block;
+  }
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+    width: 70%;
+    border: 3px solid green;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    color: white;
+    background-color: black;
+    justify-content: space-between;
+    padding: 50px 10;
+    word-spacing: 0cm;
+    
+  }
+.imageStyle {
+  align-items: center;
+}
+.book {
+  color: white;
+}
